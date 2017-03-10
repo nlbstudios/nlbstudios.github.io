@@ -148,7 +148,7 @@ a {
 	color: #1ABC9C;
 }
 
-a:hover { color: #222; }
+a:hover { color: #2e5ca5; }
 
 a img { border: none; }
 
@@ -168,7 +168,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #5df5ff;
+	color: #2e5ca5;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
@@ -1092,6 +1092,7 @@ body.stretched #header.full-header .container {
 	padding-right: 15px;
 	margin-right: 15px;
 	border-right: 1px solid #EEE;
+	color: #2e5ca5;
 }
 
 #header.transparent-header.full-header #primary-menu > ul { border-right-color: rgba(0,0,0,0.1); }
@@ -1136,9 +1137,9 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	color: #444;
+	color: #2e5ca5;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
@@ -2784,7 +2785,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 /* Slider Text Modification */
 
 .small-slider-caption {
-    text-shadow: 1px 1px 2px #363636; 
+    text-shadow: 1px 1px 2px #363636;
 }
 
 
@@ -3578,6 +3579,37 @@ Author Row
     font-size: 16px;
     font-style: italic;
 }
+
+/*-- Get tHe Book Row --*/
+
+.section .bookrow span {
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+}
+.section .bookrow p {
+		font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/* buttons */
+.button-transparent {
+	background-color: transparent !important;
+	color: white;
+	border: 4px solid white !important;
+	vertical-align: middle;
+	line-height: 30px !important;
+}
+
+.button-transparent:hover {
+	background-color: transparent !important;
+	color: #2e5ca5 !important;
+	border: 4px solid #2e5ca5 !important;
+	vertical-align: middle;
+	line-height: 30px !important;
+}
+
 /* --
 Welcome Row Section Styling
 -- */
@@ -3606,6 +3638,51 @@ Welcome Row Section Styling
     margin: 40px 40px 0 0;
 
 }
+
+/* --
+Contact Row
+-- */
+
+.contactrow input {
+}
+
+.contactrow input, textarea {
+	border: 1px solid #f9f9f9;
+}
+
+.section .contactrow h2 {
+	font-size: 48px;
+	line-height: 0;
+}
+
+.section .contactrow span {
+	font-size: 18px;
+	color: #838689;
+	font-weight: 300;
+	line-height: 5px;
+}
+
+.section .contactrow p {
+	font-size: 20px;
+	color: #838689;
+	font-weight: 300;
+	line-height: 0;
+}
+
+footer a {
+	color: #838689;
+}
+
+footer a:hover {
+	color: #2e5ca5 !important;
+}
+
+a.footerlink:link {
+	color: #838689;
+	font-weight: 300;
+}
+
+a.footerlink:hover {}
 
 /* ----------------------------------------------------------------
 	Blog
@@ -5879,10 +5956,8 @@ body:not(.device-touch) .button.button-full strong {
 	border-color: #1693A5;
 }
 
-.button-lightblue {background-color: #5df5ff}
+.button-lightblue {background-color: #2e5ca5; }
 .button-lightblue:hover {background-color: #838689;}
-
-.button-lightblue { background-color: #75c4c9; }
 .button-3d.button-lightblue:hover,
 .button-reveal.button-lightblue:hover,
 .button-border.button-lightblue:hover,
@@ -10530,7 +10605,11 @@ button.toast-close-button {
 	32. Footer
 -----------------------------------------------------------------*/
 
-#footermain
+#footermain {
+	background-color: white;
+	height:  100%;
+
+}
 
 #footer {
 	position: relative;
@@ -12230,4 +12309,3 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
-
