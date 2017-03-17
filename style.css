@@ -178,7 +178,7 @@ h6 {
 h5,
 h6 { margin-bottom: 20px; }
 
-h1 { font-size: 50px; }
+h1 { font-size: 44px; }
 
 h2 { font-size: 40px; }
 
@@ -3568,6 +3568,7 @@ Author Row
 
 .section .authorrow h2 {
     font-size: 48px;
+    color: white;
 }
 
 .section .authorrow img {
@@ -3580,7 +3581,29 @@ Author Row
     font-style: italic;
 }
 
+/* Program Tier Row */
+
+.section .program-tier-row p {
+    font-size: 20px;
+    color: #838689;
+    font-weight: 300;
+}
+
+.section .program-tier-list ul > li {
+    color: #838689;
+    font-size: 17px;
+}
+
+.section .program-tier-list .strong-item {
+    font-weight: 700;
+}
+
 /*-- Get tHe Book Row --*/
+
+.section .bookrow h2 {
+    color: white;
+}
+
 
 .section .bookrow span {
 	color: white;
@@ -3610,6 +3633,14 @@ Author Row
 	line-height: 30px !important;
 }
 
+/* Introductin Row Styling
+ */
+.introrow p {
+    color: #838689;
+    font-weight: 300;
+    font-size: 20px; 
+}
+
 /* --
 Welcome Row Section Styling
 -- */
@@ -3618,6 +3649,20 @@ Welcome Row Section Styling
     font-size: 48px;
 }
 
+.section #welcome-more {
+    font-size: 20px;
+    color: #838689;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+.section #welcome-more ul > li {
+    font-size: 17px;
+}
+
+.welcome-list-margin {
+    margin: 0 0 0 20px;
+}
 
 .section .welcomerow p {
     font-size: 20px;
@@ -3633,6 +3678,18 @@ Welcome Row Section Styling
     margin-bottom: 20px;
 }
 
+.welcome-sep-alt {
+    width: 60px;
+    height: 4px;
+    background-color: #e5e5e5;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.empty-space {
+    height: 60px;
+}
 .section .welcomerow img {
     padding-right: 40px;
     margin: 40px 40px 0 0;
@@ -8398,6 +8455,40 @@ body:not(.device-touch) .clients-grid li a {
 	Testimonials
 -----------------------------------------------------------------*/
 
+
+
+/* Testimonials Row */
+
+.testimonials-col {
+    background-color: #2e5ca5;
+    height:80%;
+    padding: 40px;
+}
+
+.testimonials-col img {
+    margin: 0 auto;
+}
+
+.testimonial-copy p {
+    color: white;
+    font-size:14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.testimonial-copy h3 {
+    color: white;
+    text-align: center;
+    line-height: 0;
+    margin: 40px 0 25px 0;
+}
+
+/* FONT AWESOME */
+
+.fa {
+    color: gold !important;
+    margin: 0 auto;
+}
 /* Testimonials - Grid
 -----------------------------------------------------------------*/
 
