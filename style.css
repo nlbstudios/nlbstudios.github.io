@@ -195,6 +195,12 @@ h4 { font-weight: 600; }
 h5,
 h6 { font-weight: bold; }
 
+.bold-700 {
+    font-weight: 700;
+    font-style: normal !important;
+    font-size: 20px !important;
+}
+
 h1 > span:not(.nocolor),
 h2 > span:not(.nocolor),
 h3 > span:not(.nocolor),
@@ -228,6 +234,9 @@ small { font-family: 'Source Sans Pro', sans-serif; }
 
 #byebuyblue {
     color: #00acff;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: left;
 }
 
 .uppercase { text-transform: uppercase !important; }
@@ -2786,6 +2795,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 
 .small-slider-caption {
     text-shadow: 1px 1px 2px #363636;
+    font-size: 75px;
 }
 
 
@@ -3066,7 +3076,9 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 .slider-caption p {
 	margin-bottom: 10px;
-	font-size: 24px;
+	font-size: 32px;
+  font-weight: 700;
+  text-align: left;
 }
 
 .slider-caption.slider-caption-right {
@@ -3641,6 +3653,10 @@ Author Row
     font-size: 20px; 
 }
 
+.welcome-marg {
+    margin-top: 20px;
+}
+
 /* --
 Welcome Row Section Styling
 -- */
@@ -3676,6 +3692,16 @@ Welcome Row Section Styling
     background-color: #e5e5e5;
     margin-top: -20px;
     margin-bottom: 20px;
+}
+
+.welcome-sep-center {
+    width: 60px;
+    height: 4px;
+    background-color: #e5e5e5;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .welcome-sep-alt {
