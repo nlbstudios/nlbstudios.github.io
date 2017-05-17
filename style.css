@@ -170,8 +170,8 @@ h5,
 h6 {
 	color: #2e5ca5;
 	font-weight: 600;
-	line-height: 1.5;
-	margin: 0 0 30px 0;
+	/*line-height: 1.5;*/
+	margin: 0 0 20px 0;
 	font-family: 'Amika', sans-serif;
 }
 
@@ -234,9 +234,15 @@ small { font-family: 'Source Sans Pro', sans-serif; }
 
 #byebuyblue {
     color: #00acff;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
     text-align: left;
+}
+
+@media (max-width: 1200px){
+    #byebuyblue{
+        font-size:40px;
+    }
 }
 
 .uppercase { text-transform: uppercase !important; }
@@ -550,7 +556,7 @@ span.middot {
 -----------------------------------------------------------------*/
 .section {
 	position: relative;
-	padding: 60px;
+	padding: 30px 0px 30px 0px;
 	background-color: #F9F9F9;
 	overflow: hidden;
   height: 100%;
@@ -2791,13 +2797,32 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	Slider
 -----------------------------------------------------------------*/
 
+.mainslider{
+    padding:100px 0 100px 0;
+    background-image: url('images/banners/largescaleban.jpg');
+		background-position: center 11%;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+	  background-size:100% auto;
+}
+
+
 /* Slider Text Modification */
 
 .small-slider-caption {
     text-shadow: 1px 1px 2px #363636;
+    color: white;
     font-size: 75px;
 }
 
+@media (max-width:733px){
+	.mainslider{
+		padding:25px 0 10px 0;
+		background-size: 120% auto;
+		background-position:auto  35px;
+		background-attachment:local;
+	}
+}
 
 
 #slider {
@@ -3079,6 +3104,22 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	font-size: 32px;
   font-weight: 700;
   text-align: left;
+}
+
+@media (max-width:1200px){
+	.slider-caption p{
+		font-size:27px;
+		/*color: #4c4c4c;
+		text-shadow:none;*/
+	}
+}
+
+@media (max-width:500px){
+	.slider-caption p{
+		font-size:17px;
+		/*color: #4c4c4c;
+		text-shadow:none;*/
+	}
 }
 
 .slider-caption.slider-caption-right {
@@ -3572,6 +3613,17 @@ body:not(.device-touch) .grid-container {
 Author Row
 -- */
 
+
+.author-pic{
+    padding-top:80px;
+}
+
+@media (max-width: 1200px){
+    .author-pic{
+        padding-top:0px;
+   }
+}
+
 .section .authorrow p {
     font-size:20px;
     color: #ffffff;
@@ -3595,6 +3647,13 @@ Author Row
 
 /* Program Tier Row */
 
+.program-tier{
+	background-image: url('images/banners/includesbackground.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .section .program-tier-row p {
     font-size: 20px;
     color: #838689;
@@ -3611,6 +3670,18 @@ Author Row
 }
 
 /*-- Get tHe Book Row --*/
+
+.purchasebutton{
+	top: 150px;
+	margin: 0 0 0 40%;
+}
+
+@media (max-width: 1200px){
+	.purchasebutton{
+		top: 0px;
+		margin: 0 auto 0 auto;
+	}
+}
 
 .section .bookrow h2 {
     color: white;
@@ -3650,7 +3721,7 @@ Author Row
 .introrow p {
     color: #838689;
     font-weight: 300;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 .welcome-marg {
@@ -3711,7 +3782,7 @@ Welcome Row Section Styling
     margin-top: -20px;
     margin-bottom: 20px;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .empty-space {
     height: 60px;
@@ -3726,6 +3797,10 @@ Welcome Row Section Styling
 Contact Row
 -- */
 
+.contactrow{
+	padding:0 0 0 20px;
+}
+
 .contactrow input {
 }
 
@@ -3735,7 +3810,7 @@ Contact Row
 
 .section .contactrow h2 {
 	font-size: 48px;
-	line-height: 0;
+	/*line-height: 0;*/
 }
 
 .section .contactrow span {
@@ -3754,10 +3829,11 @@ Contact Row
 
 footer a {
 	color: #838689;
+	font-size: 22px;
 }
 
 footer a:hover {
-	color: #2e5ca5 !important;
+	color: #1ABC9C !important;
 }
 
 a.footerlink:link {
@@ -8486,9 +8562,18 @@ body:not(.device-touch) .clients-grid li a {
 /* Testimonials Row */
 
 .testimonials-col {
+		border-radius: 10px;
     background-color: #2e5ca5;
-    height:80%;
+    height: 550px;
     padding: 40px;
+		overflow: visible;
+}
+
+@media (max-width: 1200px){
+	.testimonials-col{
+		height:auto;
+		margin:20px 0 20px 0;
+	}
 }
 
 .testimonials-col img {
@@ -8497,7 +8582,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .testimonial-copy p {
     color: white;
-    font-size:14px;
+    font-size:18px;
     margin-top: 20px;
     text-align: center;
 }
@@ -8505,7 +8590,6 @@ body:not(.device-touch) .clients-grid li a {
 .testimonial-copy h3 {
     color: white;
     text-align: center;
-    line-height: 0;
     margin: 40px 0 25px 0;
 }
 
@@ -10725,7 +10809,20 @@ button.toast-close-button {
 #footermain {
 	background-color: white;
 	height:  100%;
+  padding:2% 0px;
+}
 
+
+#footermain ul li{
+	list-style-type: none;
+	float:right;
+	order: reverse;
+	margin:30px 20px 0 10px;
+
+}
+
+#footermain ul:hover{
+	color:#1ABC9C;
 }
 
 #footer {
