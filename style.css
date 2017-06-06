@@ -3724,6 +3724,12 @@ Author Row
     font-size: 20px;
 }
 
+@media (max-width:1200px){
+    .introrow h1{
+        font-size:32px;
+    }
+}
+
 .welcome-marg {
     margin-top: 20px;
 }
