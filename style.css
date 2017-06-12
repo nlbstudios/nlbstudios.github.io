@@ -3616,12 +3616,7 @@ Author Row
 
 .author-pic{
     padding-top:80px;
-}
-
-@media (max-width: 1200px){
-    .author-pic{
-        padding-top:0px;
-   }
+    text-align:center;
 }
 
 .section .authorrow p {
@@ -3644,6 +3639,18 @@ Author Row
     font-size: 16px;
     font-style: italic;
 }
+
+@media (max-width: 1200px){
+    .author-pic{
+        padding-top:0px;
+        margin: 0 auto 30px 10%;
+    }
+    
+    .section .authorrow img{
+        margin: 0 20% 20px 0;
+    }
+}
+
 
 /* Program Tier Row */
 
