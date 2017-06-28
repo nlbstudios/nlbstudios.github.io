@@ -3645,7 +3645,7 @@ Author Row
         padding-top:0px;
         margin: 0 auto 30px 0;
     }
-    
+
     .section .authorrow img{
         margin: 0 20% 20px 0;
     }
@@ -3670,6 +3670,12 @@ Author Row
 .section .program-tier-list ul > li {
     color: #838689;
     font-size: 17px;
+}
+
+@media(max-width: 1200px){
+	.break-span{
+		display:block;
+	}
 }
 
 .section .program-tier-list .strong-item {
