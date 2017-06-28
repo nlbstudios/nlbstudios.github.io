@@ -3837,6 +3837,13 @@ Contact Row
 	/*line-height: 0;*/
 }
 
+.tier-selection	{
+	background-color: #ffffff;
+	color: #404040;
+	width: 100px;
+	margin: 0 0 20px 0;
+}
+
 .section .contactrow span {
 	font-size: 18px;
 	color: #838689;
