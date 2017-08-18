@@ -3825,6 +3825,17 @@ Contact Row
 	padding:0 0 0 20px;
 }
 
+.contactrow a{
+    font-size: 22px;
+    line-height: 1.8em;
+}
+
+.contactrow a:hover{
+    background-color:#1ABC9C;
+    color: #fff;
+}
+
+
 .contactrow input {
 }
 
@@ -3840,7 +3851,6 @@ Contact Row
 .tier-selection	{
 	background-color: #ffffff;
 	color: #404040;
-	width: 100px;
 	margin: 0 0 20px 0;
 }
 
